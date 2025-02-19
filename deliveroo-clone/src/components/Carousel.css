@@ -1,0 +1,21 @@
+.image-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  background-color: #f9f9f9;
+}
+
+.grid-item {
+  flex: 1;
+  width: 200px;
+  text-align: center;
+}
+
+.grid-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}

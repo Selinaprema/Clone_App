@@ -1,0 +1,110 @@
+/* Footer container styling */
+.footer-container {
+  background-color: #2e3333;
+  color: #fff;
+  padding: 2rem 1rem;
+
+  font-family: Arial, sans-serif;
+}
+
+/* Top Row Styling: 4 Columns */
+.footer-top-row {
+  display: flex;
+  justify-content: space-between; /* Evenly space out columns */
+  gap: 2rem; /* Spacing between columns */
+  margin-bottom: 2rem;
+}
+
+.footer-column {
+  flex: 1; /* Ensure all columns are of equal width */
+  min-width: 150px; /* Prevent shrinking on very small screens */
+  background-color: #434848;
+  padding: 30px;
+  border-radius: 3%;
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+button {
+  background-color: #000000;
+  color: #fff;
+  border: 2px;
+  border-color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 180px;
+  margin-right: 100px;
+}
+
+.appStore {
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.googlePlay {
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+/* Bottom Row Styling */
+.footer-bottom-row {
+  display: flex;
+  justify-content: space-between; /* Align social icons to the left, text to the right */
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.footer-social-icons {
+  display: flex;
+  margin-left: 30px;
+  margin-top: -30px;
+  gap: 10px;
+}
+
+.footer-text {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #505555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-top-row {
+    flex-direction: column; /* Stack columns vertically */
+    gap: 1rem;
+  }
+
+  .footer-bottom-row {
+    flex-direction: column; /* Stack social icons and text */
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+}

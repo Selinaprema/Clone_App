@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 35px;
+  background-color: #fff;
+}
+
+.deliveroo-logo {
+  width: 130px;
+  height: 70px;
+  margin-top: -20px;
+}
+
+.header-button {
+  padding: 10px;
+  gap: 10px;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  margin-right: 20px;
+}
