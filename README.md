@@ -24,6 +24,7 @@ I created custom CSS rules to ensure that the website looks visually similar to 
 ## How to Use
 1. Clone the repository to your local machine.
 2. Install the dependencies using npm:
+
    ```bash
 npm install   
 
