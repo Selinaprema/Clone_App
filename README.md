@@ -29,9 +29,9 @@ I created custom CSS rules to ensure that the website looks visually similar to 
    npm install
    
 ## Run the Development Server
-To start the development server, run the following command:
+1. To start the development server, run the following command:
 
-  ``bash
+   ```bash
    npm start
 
 ## Author
@@ -39,6 +39,5 @@ To start the development server, run the following command:
 
 ## License
 - This project is licensed under the MIT License.
-
 
 
