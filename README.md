@@ -26,11 +26,19 @@ I created custom CSS rules to ensure that the website looks visually similar to 
 2. Install the dependencies using npm:
 
    ```bash
-npm install   
+   npm install
+   
+## Run the Development Server
+To start the development server, run the following command:
+
+```bash
+npm start
 
 ## Author
 - Selina Prema
   
 ## License
 - This project is licensed under the MIT License.
+
+
 
