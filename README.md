@@ -31,12 +31,12 @@ I created custom CSS rules to ensure that the website looks visually similar to 
 ## Run the Development Server
 To start the development server, run the following command:
 
-```bash
-npm start
+  ``bash
+   npm start
 
 ## Author
 - Selina Prema
-  
+
 ## License
 - This project is licensed under the MIT License.
 
