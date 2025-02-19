@@ -1,14 +1,13 @@
 # Deliveroo Clone Project
 
 ## Functional Components
-I analyzed the Deliveroo homepage and identified its major sections. These sections were then broken down into separate functional components in React:
+I analysed the Deliveroo homepage and identified its major sections. These sections were then broken down into separate functional components in React:
 
-- **Header**: Contains the Deliveroo logo, search bar, and user navigation links.
-- **Restaurant Listings**: Displays various restaurants available on Deliveroo, with an image and description.
-- **Footer**: Contains useful links about Deliveroo, terms and conditions, etc.
-
-## Passing Props Between Components
-To demonstrate the use of props, I passed data such as restaurant information (e.g., restaurant name, image, and description) from the **Restaurant List** component to the **Restaurant Item** component.
+- **Hero Section**: Contains Hero Image with overlaying text and search bar.
+- **Carousel Images**: Displays various images of cuisines.
+- **Offer Image**: Contains a section with an image displaying an offer
+- **Get Started Cards**: Displays cards with images, text and buttons
+- **Footer**: Displays a 4 coloum footer
 
 ## Styling the Website
 I created custom CSS rules to ensure that the website looks visually similar to the original Deliveroo homepage. Some of the key styling features include:
@@ -39,5 +38,6 @@ I created custom CSS rules to ensure that the website looks visually similar to 
 
 ## License
 - This project is licensed under the MIT License.
+
 
 
